@@ -4,10 +4,13 @@
     box-sizing: border-box;
 }
 body{
+   max-width: 800px;
+   margin: 0 auto;
    
 }
-p{
+.paragrafo{
     text-align: center;
+    margin-top: 30px;
 }
 
 h1{
@@ -15,3 +18,34 @@ h1{
     text-align: center;
     margin-top: 30px;
 }
+img{
+    float:left;
+    margin-top: 20px;
+    width: 60px;
+    height: 60px;
+}
+
+.contenitore{
+    margin-top: 30px;
+   
+}
+.info1{
+    background-color: #0f0e17;
+    float: left;
+    margin-top: 20px;
+    height: 60px;
+    
+    color: white;
+   
+    
+}
+.immagine{
+    margin-left: 80px;
+}
+
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+
