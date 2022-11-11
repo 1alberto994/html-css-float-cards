@@ -46,7 +46,7 @@ header h1{
     height: 100px;
     margin-bottom: 40px;
 }
-.card *{
+.card> *{
     float: left;
 }
 .card>img{
@@ -69,6 +69,9 @@ header h1{
 .color-lightblue{
     color: lightblue;
     text-decoration: none;
+}
+section{
+    margin-top: 30px;
 }
     
 
